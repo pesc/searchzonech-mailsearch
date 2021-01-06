@@ -1,5 +1,5 @@
 # .ch-mailsearch
-Check deliverability of a specific mail address from the public .ch zonefile
+Check deliverability of a specific mail address of all domains from the public .ch zonefile
 
 ## 🤔 Why?
 This is an research example on how to use the new public .ch zonefile. 
