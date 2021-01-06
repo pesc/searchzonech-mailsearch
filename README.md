@@ -11,7 +11,7 @@ This script is just a POC: code could be improved...feel free to contribute/fork
 * Setup https://github.com/amaurymartiny/check-if-email-exists as an http-Server
 * Install python requirements
 * Make sure your IP isn't blacklisted (check online) and port 25 isn't blocked (mostly for private ISP) -> use proxy 
-* Change `from_email`, `hello_name` (and if needed set proxy) and the address to search for `'info@' + domain`
+* Change `from_email`, `hello_name` (and if needed set proxy) and the address to search for `'info@' + domain`. Make sure SPF isn't script on the address used or add the IP to your test domain.
 * Get the public .ch zone file: https://www.switch.ch/de/open-data/#tab-c5442a19-67cf-11e8-9cf6-5254009dc73c-3
 * Create a uniq domain list of it: `grep $'IN\tNS' ch.txt | awk '{print $1}' | uniq > ch_domain_uniq.txt`
 * Start script and enjoy: `python3 search.py ch_domain_uniq.txt` (takes a while, tip: split domain file)
