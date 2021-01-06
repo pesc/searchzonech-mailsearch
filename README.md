@@ -16,6 +16,11 @@ This script is just a POC: code could be improved...feel free to contribute/fork
 * Create a uniq domain list of it: `grep $'IN\tNS' ch.txt | awk '{print $1}' | uniq > ch_domain_uniq.txt`
 * Start script and enjoy: `python3 search.py ch_domain_uniq.txt` (takes a while, tip: split domain file)
 
+## Results
+| Date          | Number of valid addresses           | 
+| ------------- |:-------------:|
+| 06.01.2021     | ? |
+
 ## Credits
 - @amaurymartiny (For the check-if-email-exists)
 - @pesc
