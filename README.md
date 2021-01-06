@@ -7,6 +7,8 @@ This should not be used to get addresses for spam or phishing!
 
 This script is just a POC: code could be improved...feel free to contribute/fork
 
+https://twitter.com/the_pesc/status/1346434296639344649
+
 ## Setup
 * Setup https://github.com/amaurymartiny/check-if-email-exists as an http-Server
 * Install python requirements
