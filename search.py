@@ -71,6 +71,9 @@ def check_mail(domain):
             except KeyError:
                 pass
             print(email + "\t" + used_mx, file=open("valid_emails.txt", "a"))
+        else:
+            logging.info("Error: Not deliverable, check lib for : " + domain)
+            logging.debug("Error: Not deliverable, check lib for : " + domain + json.dumps(json_response, indent=3))
     except KeyError:
         logging.info("Error: JSON error for " + domain + json.dumps(json_response, indent=3))
         return
