@@ -17,7 +17,7 @@ This script is just a POC: code could be improved...feel free to contribute/fork
 * Start script and enjoy: `python3 search.py ch_domain_uniq.txt` (takes a while, tip: split domain file)
 
 ## Results
-| Date          | Number of valid addresses           | 
+| Date          | Number of valid info@ addresses           | 
 | ------------- |:-------------:|
 | 06.01.2021     | ? |
 
