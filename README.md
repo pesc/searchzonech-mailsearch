@@ -1,6 +1,12 @@
 # .ch-mailsearch
 Check deliverability of a specific mail address from the public .ch zonefile
 
+## 🤔 Why?
+This is an research example on how to use the new public .ch zonefile. 
+This should not be used to get addresses for spam or phishing!
+
+This script is just a POC: code could be improved...feel free to contribute/fork
+
 ## Setup
 * Setup https://github.com/amaurymartiny/check-if-email-exists as an http-Server
 * Install python requirements
@@ -11,6 +17,6 @@ Check deliverability of a specific mail address from the public .ch zonefile
 * Start script and enjoy: `python3 search.py ch_domain_uniq.txt` (takes a while, tip: split domain file)
 
 ## Credits
-amaurymartiny
-pesc
+- @amaurymartiny (For the check-if-email-exists)
+- @pesc
 
