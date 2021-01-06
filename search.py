@@ -50,7 +50,7 @@ def check_mail(domain):
         return
     logging.debug('MX is valid for ' + domain)
     email = 'info@' + domain
-    payload = {'to_emails': [email], 'from_email': 'search@phishingcheck.ch', 'hello_name': 'mail.phishingcheck.ch'}
+    payload = {'to_emails': [email], 'from_email': 'changeme@changeit!.ch', 'hello_name': 'mail.changeit!.ch'}
     logging.debug('Checking mailserver for ' + email)
     response = requests.post(url, data=json.dumps(payload), headers=headers)
     json_response = json.loads(response.text)
