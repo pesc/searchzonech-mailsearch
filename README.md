@@ -21,7 +21,7 @@ https://twitter.com/the_pesc/status/1346434296639344649
 ## Results
 | Date          | Number of valid info@ addresses           | 
 | ------------- |:-------------:|
-| 06.01.2021     | ? |
+| 06.01.2021     | 488'727 |
 
 ## Credits
 - @amaurymartiny (For the check-if-email-exists)
