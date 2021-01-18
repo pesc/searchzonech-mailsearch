@@ -24,6 +24,6 @@ https://twitter.com/the_pesc/status/1346434296639344649
 | 06.01.2021     | 488'727 |
 
 ## Credits
-- @amaurymartiny (For the check-if-email-exists)
+- @amaurymartiny [(check-if-email-exists)](https://github.com/amaurymartiny/check-if-email-exists)
 - @pesc
 
